@@ -10,6 +10,8 @@ function passGender(gender){
         alert(akan);
 
     } else {
-        
+        akanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+        var akan = akanNames[day];
+        alert(akan);
     }
 }
