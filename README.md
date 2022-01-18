@@ -4,7 +4,7 @@
 ## Description
 This project is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 ## Setup/Installation Requirements
-Available on Github page: https://ekiptunge.github.io/portfolio/ It can run on any browser.
+Available on Github page:  https://ekiptunge.github.io/akan-names/ , It can run on any browser.
 ## Known Bugs
 Some output are not as accurate as expected. Reach out to me incase of any bags.
 ## Technologies Used
