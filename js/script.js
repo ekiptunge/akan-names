@@ -4,6 +4,9 @@ function passGender(gender){
     //alert(day);
     //alert(gender);
     if(gender == "M"){
-        
+        akanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "kofi", "Kwame"];
+        //alert(akannames);
+        var akan = akanNames[day];
+        alert(akan);
     }
 }
