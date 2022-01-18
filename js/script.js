@@ -1,5 +1,5 @@
 function passGender(gender){
-    var dob = document.getElementById("birthdate").Value;
+    var dob = document.getElementById("birthdate").value;
     var day = new Date(dob).getDay();
     //alert(day);
     //alert(gender);
@@ -9,7 +9,7 @@ function passGender(gender){
         var akan = akanNames[day];
         alert(akan);
 
-    } else {
+    }else {
         akanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
         var akan = akanNames[day];
         alert(akan);
