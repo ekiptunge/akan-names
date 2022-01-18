@@ -8,5 +8,8 @@ function passGender(gender){
         //alert(akannames);
         var akan = akanNames[day];
         alert(akan);
+
+    } else {
+        
     }
 }
