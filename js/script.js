@@ -3,4 +3,7 @@ function passGender(gender){
     var day = new Date(dob).getDay();
     //alert(day);
     //alert(gender);
+    if(gender == "M"){
+        
+    }
 }
