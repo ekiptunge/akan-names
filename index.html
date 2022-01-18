@@ -9,28 +9,30 @@
     <title>Akan Name Calculator</title>
 </head>
 <body>
-    <div class="container">
-        <h3>Akan Name Calculator</h3>
-        <img src="images/print.jpg" alt="A photo of african people">
-        <p>With a diverse culture, the Ghanaian’s derive their children’s names as a ‘day name’. This is called the Akan naming system. According to the naming system, the name corresponds to the day in the week they were born.</p>
-        <p>Find out your Akan name by filling the form below and click on submit button:</p>
+    <div class>
+        <div class="container">
+            <h3>Akan Name Calculator</h3>
+            <img src="images/print.jpg" alt="A photo of african people">
+            <p>With a diverse culture, the Ghanaian’s derive their children’s names as a ‘day name’. This is called the Akan naming system. According to the naming system, the name corresponds to the day in the week they were born.</p>
+            <p>Find out your Akan name by filling the form below and click on submit button:</p>
+        </div>
+        <form>
+            <div class="container">
+                <label for="birthdate">Birthday</label>
+            </div>
+            <div class="container">
+                <input type="date" id="birthdate" required>
+            </div>
+            <div class="container">
+                <input type="radio" name="gender" onclick="passGender('M')">Male
+                <input type="radio" name="gender" onclick="passGender('F')">Female
+            </div>
+            <div class=" container">
+                <input type="submit" value="Submit" class="btn btn-info">
+                <input type="reset" value="Reset" class="btn btn-danger">
+            </div>
+        </form>
     </div>
-    <form>
-        <div class="container">
-            <label for="birthdate">Birthday</label>
-        </div>
-        <div class="container">
-            <input type="date" id="birthdate" required>
-        </div>
-        <div class="container">
-            <input type="radio" name="gender" onclick="passGender('M')">Male
-            <input type="radio" name="gender" onclick="passGender('F')">Female
-        </div>
-        <div class=" container">
-            <input type="submit" value="Submit" class="btn btn-info">
-            <input type="reset" value="Reset" class="btn btn-danger">
-        </div>
-    </form>
     <script src="js/script.js"></script>
 </body>
 </html>
